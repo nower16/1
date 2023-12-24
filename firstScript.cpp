@@ -1,12 +1,17 @@
-#include <stdio.h>
+#include <conio.h>
 #include <iostream>
 
 using namespace std;
 
-int main(){
-    int num = 0;
-    cout << num << endl;
-    cout << "HELLO WORLD" << endl;
-    cin >> num;
-    cout << num << endl;
+int main()
+{
+    int num;
+    cout<< "Enter an integer number :" <<num;
+    cin>> num;
+
+    cout<< "Entered number is :" <<num;
+    
+    getch();
+    
 }
+
