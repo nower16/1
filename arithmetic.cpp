@@ -1,5 +1,6 @@
 #include <iostream>
 #include<conio.h>
+#include<iomanip>
 using namespace std;
 
 int main (){
@@ -8,17 +9,21 @@ int main (){
     cin>> num1>> num2 ;
 
 
-    int sum = num1 + num2;
+    float sum = num1 + num2;
     cout<< "sum is :"<< sum<<endl;
 
-    int sub = num1 - num2;
+    cout<< showpoint;
+    cout<< fixed; // counts after .
+    cout<<setprecision(2);
+
+    float sub = num1 - num2;
     cout<< "sub is :"<< sub<<endl;
 
-    int mul = num1 * num2;
+    float mul = num1 * num2;
     cout<< "mul is :"<< mul<<endl;
 
-
-    double div = (float)num1 / num2;
+    cout<< noshowpoint;
+    float div = (float)num1 / num2;
     cout<< "div is :"<< div<<endl;
 
     int rem = num1 % num2;

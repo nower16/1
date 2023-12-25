@@ -5,12 +5,13 @@ using namespace std;
 
 int main()
 {
-    int num;
-    cout<< "Enter an integer number :" <<num;
-    cin>> num;
-
-    cout<< "Entered number is :" <<num;
+    char name [30];
     
+    cout<< "Enter a Name: " <<name;
+    cin>> name;
+
+    cout<< "Name is : " <<name;
+       
     getch();
     
 }
